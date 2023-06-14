@@ -83,6 +83,7 @@ h1 {
     margin: 0;
     color: #ffffff;
     font-size: 40px;
+    font-family: 'Kanit';
 }
 
 h1,
@@ -98,14 +99,17 @@ nav h1 {
 
 header h1 {
     font-family: 'Kanit', sans serif;
+   
 }
 header h3 {
     text-transform: uppercase;
     color: #8d410a;
     letter-spacing: 5px;
+    font-family: 'Kanit-bold';
 }
 
 header p {
+    font-family: 'Kanit"';
     font-size: 15px;
     color: #ffffff;
 }
@@ -121,7 +125,9 @@ a:hover {
 }
 
 header a {
-    background-color: #212529;
+    font-family: 'Kanit';
+
+    background-color: #2125291c;
 
 }
 

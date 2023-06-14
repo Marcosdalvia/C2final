@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Kanit';
-  src:  url(https://fonts.google.com/);
-  src:  url(https://fonts.google.com/) format('embedded-opentype'),
-    url(https://fonts.gstatic.com)
-    url(https://fonts.gstatic.com) 
+  src:  url("https://fonts.googleapis.com");
+  src:  url(https://fonts.gstatic.com) format('embedded-opentype'),
+    url(https://fonts.gstatic.com)format('truetype'),
+    url(https://fonts.gstatic.com) format('woff'),
     url('../fonts/icomoon.svg?3r8u37#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -13,7 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Kanit' !important;
-  
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
